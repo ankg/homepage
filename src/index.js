@@ -23,6 +23,7 @@ import substack from './images/substack.png';
 import twitterBot from './images/twitter_bot.png';
 import livestream from './images/livestream.jpg';
 import gsoc from './images/gsoc.png';
+import aniketLogo from './images/aniket_logo.png';
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 /*
@@ -86,9 +87,11 @@ export default class Navbar extends React.Component {
 class Website extends React.Component {
 	render() {
 		return(
+        <div>
         <div className="container">
           <nav className="navbar navbar-dark bg-dark">
-            <span className="navbar-brand mb-0 h1"> </span>
+            <span className="navbar-brand mb-0 h1"> 
+            </span>
           </nav>
     			<div className="d-flex justify-content-center flex-nowrap">
             <div className="row col-8 align-items-center clearfix mt-5">
@@ -131,8 +134,11 @@ class Website extends React.Component {
               </div>
             </div>
     			</div>
-            
-
+        </div>
+          <div className="bg-dark mt-5 p-3 d-flex justify-content-center">
+          <p className="text-white">&copy; Copyright Aniket Gupta, 2021</p>
+          copyright
+          </div>        
         </div>
 		)
 	}

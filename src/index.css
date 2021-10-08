@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.social-links {
+  grid-area: lb;
+  padding: 0.5em 0 !important;
+}
+.social-links  div {
+  width: 180px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 1fr;
+}
+.social-links h3 {
+  font: var(--web-footer-social);
+  margin: 0.5em 0;
+}
+.social-links img {
+  object-fit: contain;
+  padding: 6px;
+}
+.social-links img:hover {
+  border: 1px solid rgb(78, 77, 77);
+  border-radius: 4px;
+}

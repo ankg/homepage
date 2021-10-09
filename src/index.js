@@ -144,7 +144,6 @@ class Website extends React.Component {
 
   renderProjectCards()
   {
-    console.log("function executes")
     const projects = [
       {
         "project": "Ingig Live - A live streaming platform for musicians",
@@ -222,8 +221,6 @@ class Website extends React.Component {
                 </td>
                </tr>
     });
-
-    console.log(val);
 
     return(val);
   }  

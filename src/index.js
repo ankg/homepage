@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Cover from './images/Cover.jpg';
 import Profile from './images/Profile.jpg';
 import 'semantic-ui-css/semantic.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,7 +15,7 @@ import instagram from "./images/gh_logo.png";
 import linkdin from "./images/linkdin.png";
 
 import ingig from './images/ingig.png';
-import scrappy from './images/ScrappySquirrels.PNG';
+import scrappy from './images/ScrappySquirrels.webp';
 import certificate from './images/certificate.jpg';
 import bootcamp from './images/bootcamp.PNG';
 import substack from './images/substack.png';

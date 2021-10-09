@@ -93,13 +93,13 @@ class Website extends React.Component {
             </span>
           </nav>
     			<div className="d-flex justify-content-center flex-nowrap">
-            <div className="row col-8 align-items-center clearfix mt-5">
+            <div className="row col-md-8 col-lg-8 col-xl-8 col-sm-12 col-12 align-items-center clearfix mt-5">
               <div className="col mb-3">		
-      				  <img src={Profile} className="rounded-circle img-responsive" width={250}/>
+      				  <img src={Profile} className="rounded-circle" width={210}/>
               </div>
-              <div className="col ml-n4">
+              <div className="col project-text">
                 <p>
-                  <h3>Aniket Gupta</h3>
+                  <h3 className="project-header">Aniket Gupta</h3>
                   <br />
                   An entrepreneur masquerading as a programmer 
                   <br /><br />
@@ -127,9 +127,9 @@ class Website extends React.Component {
                 <hr />                  
                 </div>
               </div>
-              <div className="d-flex justify-content-center flex-nowrap">
+              <div className="d-flex justify-content-center col-sm-12 flex-nowrap">
                 <br />
-                <table>{this.renderProjectCards()}</table>
+                <table className="">{this.renderProjectCards()}</table>
               </div>
             </div>
     			</div>
@@ -211,9 +211,9 @@ class Website extends React.Component {
              </div>;*/
 
         return <tr className="border-bottom">
-                <td className="p-3"><img className="" src={content["image"]} width="200"/></td>
-                <td className="p-3">
-                    <h4>{content["project"]}</h4>
+                <td className="p-3"><img className="project-img" src={content["image"]}/></td>
+                <td className="p-3 project-text">
+                    <h4 className="project-header">{content["project"]}</h4>
                     <p>{content["description"]}</p>
                     <a href={content["link"]} target="_blank">
                       Visit Link &#x2197;

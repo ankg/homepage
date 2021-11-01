@@ -35,7 +35,7 @@ class BlogList extends React.Component {
 
 	render() {
 		return(
-			<div>
+			<div className="container mt-5">
 				{this.state.data != "" ? this.listBlogs() : <></>}
 			</div>
 		)

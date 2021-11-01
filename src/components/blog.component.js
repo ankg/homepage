@@ -48,8 +48,10 @@ class Blog extends React.Component {
 	render() {
   		const { markdown } = this.state;
 		return(
-			<div>
-			 {Parser(this.state.markdown)}
+			<div className="mt-5 text-align-center justify-content-center">
+				<div className="blog-text">
+			 		{Parser(this.state.markdown)}
+			 	</div>
 			</div>
 		)	
 	}

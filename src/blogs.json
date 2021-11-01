@@ -5,5 +5,12 @@
 	"cover":"./images/gsoc.png",
 	"url":"blog1",
 	"fileName":"blog1.md"
+},
+{
+	"title":"Living in your own mind",
+	"subtitle":"(6 min read) The hard part about staying focussed and not caring too much about what others think",
+	"cover":"",
+	"url":"living-in-your-own-mind.md",
+	"fileName":"living-in-your-own-mind.md"
 }
 ]
